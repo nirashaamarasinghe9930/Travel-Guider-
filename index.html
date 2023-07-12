@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" ref="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        interity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="icon" href="img/travelogo.jpg">
+    <title>Travler.Lk</title>
+</head>
+
+<body>
+
+    <!--Nav bar-->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Traveler Guid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#navmenu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+        </div>
+        </div>
+    </nav>
+
+    <!-- Show case-->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Travel <span class="text-primary"> Guider</span></h1>
+                    <p class="lead my-4">
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+                    </p>
+                    <button class="btn btn-primary btn-lg">Start to Travel</button>
+
+
+
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/travelogo.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter-->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-4">Signup for Travel in your favourite places</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email" />
+                    <button class="btn btn-dark btn-lg" type="button">Sign Up</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Boxes-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-airplane"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Locations
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat iste sapiente ipsum
+                                incidunt aut molestiae nam quisquam. Porro cumque necessitatibus quaerat maiores dolore,
+                                laborum, atque, fuga in suscipit minima expedita?
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More..</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md">
+                    <div class="bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Travelers Details
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat iste sapiente ipsum
+                                incidunt aut molestiae nam quisquam. Porro cumque necessitatibus quaerat maiores dolore,
+                                laborum, atque, fuga in suscipit minima expedita?
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-buildings"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Hotels & Resturants
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat iste sapiente
+                                ipsum
+                                incidunt aut molestiae nam quisquam. Porro cumque necessitatibus quaerat maiores
+                                dolore,
+                                laborum, atque, fuga in suscipit minima expedita?
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Details Section-->
+    <section id="travel" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/places1.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>
+                        Most Populer Places in the World
+                    </h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic fugiat quisquam, labore est
+                        minus reprehenderit quis, animi voluptate aspernatur adipisci fugit optio obcaecati. Autem iure
+                        alias temporibus suscipit! Laboriosam.
+                    </p>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, odio. Minus voluptates ab
+                        repellat praesentium.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>
+                        Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="travel" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>
+                        Dream Your Next Dream
+                    </h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic fugiat quisquam, labore est
+                        minus reprehenderit quis, animi voluptate aspernatur adipisci fugit optio obcaecati. Autem iure
+                        alias temporibus suscipit! Laboriosam.
+                    </p>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, odio. Minus voluptates ab
+                        repellat praesentium.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>
+                        Read More</a>
+                </div>
+                <div class="col-md">
+                    <img src="img/places2.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Qestion Section-->
+    <section id="#question" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="#question">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Second Timer's Guides
+                        </button>
+                    </h2>
+                    <!--Item one-->
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#question-one">
+                        <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+                            alias asperiores quasi odit excepturi quisquam minima officiis? Nulla, expedita? Quidem
+                            dolore quisquam magni impedit
+                            incidunt</div>
+                    </div>
+
+                    <!--Item two-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-two">
+                                Where to go as a solo traveler right now, from Iceland to Uruguay
+                            </button>
+                        </h2>
+                        <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#question">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laboriosam dolorum esse, atque illo ratione labore soluta, cum dolor quibusdam maiores
+                                ipsam eos nobis ex beatae! Hic facilis voluptatem enim officiis ad.</div>
+                        </div>
+                    </div>
+
+                    <!-- Item three-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-three">
+                                Where to see tulips this spring, beyond the Netherlands
+                            </button>
+                        </h2>
+                        <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#question">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                                esse repellendus reprehenderit iste officiis ex tempora a quidem ut nulla consequatur
+                                aliquid accusantium cumque nam deserunt, error voluptate officia, impedit, provident
+                                eligendi beatae dolorum. Architecto, nam? Magni totam dolor repudiandae.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="instructors" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">
+                Our Travle Guiders
+            </h2>
+            <p class="lead text-center text-white mb-5">Our Travle Guiders have 6+ years working experience as a travel
+                guider in the world. </p>
+        </div>
+        <!--Profile one-->
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Saimon Serif</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam alias,
+                            repudiandae nemo adipisci maiores.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--profile two-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Jenny Colin</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam alias,
+                            repudiandae nemo adipisci maiores.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--Profile three -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Saimon Serif</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam alias,
+                            repudiandae nemo adipisci maiores.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--Profile four-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/10.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Salena Gomez</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam alias,
+                            repudiandae nemo adipisci maiores.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact and map -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Loacation :</span> 20, Attidiya Road , Rathmalana.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Office Number :</span> 011-255 255
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Travel Guider Number : </span> 077-1231235
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Email Address :</span> Travelguider@net.Lk
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id='map'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <script>
+
+       
+        mapboxgl.accessToken = '<your access token here>';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/streets-v12', // style URL
+            center: [-74.5, 40], // starting position [lng, lat]
+            zoom: 9, // starting zoom
+        });
+
+    </script>
+
+</body>
+
+</html>
